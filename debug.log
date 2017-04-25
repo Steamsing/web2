@@ -1,0 +1,3 @@
+[0406/230320.086:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Denna pipe håller på att stängas. (0xE8)
+[0406/230348.517:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Denna pipe håller på att stängas. (0xE8)
+[0406/235557.968:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Denna pipe håller på att stängas. (0xE8)
