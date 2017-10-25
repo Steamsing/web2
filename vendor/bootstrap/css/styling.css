@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+    body {
+        padding-top: 54px;
+		background-image: url(../../../pictures/bg-albums.png);
+		background-color: rgba(190, 65, 175, 0.75);
+		color: white;
+    }
+    
+    @media (min-width: 1336px) {
+        body {
+            padding-top: 83px;
+        }
+		.namn{
+			position: fixed;
+			left: 1%;
+			top: 20px;
+			z-index: 100000;
+		}
+
+		.img-fluid{
+			margin-top: 2%;
+			width: 100%;
+		}
+		
+	
+		
+    }
+    /* Temporary navbar container fix */
+    
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 1335px) {
+        nav > .container {
+            width: 100%;
+        }
+		.namn{
+			position: fixed;
+			left: 0%;
+			top: 0px;
+			z-index: 0;
+		}
+
+		
+
+		
+		.img-fluid{
+			margin-top: 10%;
+			width: 100%;
+		}
+}
