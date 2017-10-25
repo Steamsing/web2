@@ -2,17 +2,29 @@
 <html lang="en">
 
 <head>
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98886221-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Jonatan Haikara" content="itlabb">
 
     <title>Betygskriterier | Totte</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/styling.css" rel="stylesheet">
     
     <!-- Hover over -->
     
@@ -21,59 +33,7 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
-
-    
-    <!-- Custom styles for this template -->
-    <style>
-    body {
-        padding-top: 54px;
-		background-image: url(pictures/bg-albums.png);
-		background-color: hotpink;
-		color: white;
-    }
-    
-    @media (min-width: 992px) {
-        body {
-            padding-top: 83px;
-        }
-		.namn{
-			position: fixed;
-			left: 10%;
-			top: 30px;
-			z-index: 100000;
-		}
-			.alert{
-		position: absolute;
-		top: 10px;
-		left: 22%;
-		z-index: 10000;
-	}
-    }
-    /* Temporary navbar container fix */
-    
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-		
-
-		
-		.img-fluid{
-			margin-top: 10%;
-			width: 100%;
-		}
-		
-		
-
-
-	</style>
-
-</head>
+	</head>
 
 <body>
 
@@ -83,7 +43,7 @@ $(document).ready(function(){
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="pictures/grillskalang3.png"></a>
+            <a class="navbar-brand" href="index.html"><img src="pictures/grillskalang3.png" alt="Grillskas logga"></a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -113,35 +73,85 @@ $(document).ready(function(){
     </nav>
     <div class="container">
     <div class="namn">
-    <a data-toggle="tooltip" title="Skaparen utav hemsidan!">Jonatan Haikara</a>
+    <a data-toggle="tooltip" title="Made in Sweden"><img src="pictures/sweden.png" alt="Sveriges flagga" width="50%"></a>
 		</div>
 	</div>
     
-<div class="container">
-  <div class="alert alert-warning alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Varning!</strong> Denna webbplats är i öppen beta och alla funktioner kanske inte fungerar.
-  </div>
-</div>
 
     <!-- Page Content -->
 <div class="container">
   <div class="img-fluid">
-	  <center><img src="pictures/notfound.gif"></center>
+	  <center></center>
 	  <div class="container-fluid">
-		  <center><h2>Betygskriterier</h2></center>
-<div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada auctor leo convallis pretium. Duis vel scelerisque diam, eget pharetra metus. Donec eget odio posuere, luctus nulla ut, placerat nisl. Phasellus id posuere enim. Donec facilisis lacus elit, nec iaculis sapien tempor in. Pellentesque nec nisi at ante lacinia tempor. Ut maximus lorem quis tortor luctus, in placerat nulla ultricies. Suspendisse quis justo eros.
+		  <center><h1>Betygskriterier</h1></center><br>
+<div style="overflow-x:auto;">
+	<table>
+   	<tr>
+   		<th>
+   			Kunskapsmål
+   		</th>
+   		<th>
+   			Betyg E
+   		</th>
+   		<th>
+   			Betyg C
+   		</th>
+   		<th>
+   			Betyg A
+   		</th>
+   	</tr>
+   	<tr>
+   		<td>
+   			Förmåga att planera, genomföra, dokumentera och utvärdera utvecklingsprojektet för webbplatser och webbapplikationer eller andra slags applikationer som bygger på webbtekniker.
+   		</td>
+   		<td>
+   			Eleven gör en enkel projektplan för en tänkt produkt. Utifrån projektplanen utvecklar eleven i samråd med handledare produkten.
+		</td>
+   		<td>
+   			Eleven gör en genomarbetad projektplan för en tänkt produkt. Utifrån projektplanen utvecklar eleven efter samråd med handledare produkten.
+   		</td>
+   		<td>
+   			Eleven gör en genomarbetad projektplan för en tänkt produkt. Vid behov reviderar eleven planen. Utifrån projektplanen utvecklar eleven efter samråd med handledare produkten
+   		</td>
+   	</tr>
+   	<tr>
+   		<td>
+   			Utvecklingsprocessen för ett webbtekniskt projekt: Målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.
+   		</td>
+   		<td>
+   			Produkten är av tillfredställande kvalitet och följer etablerad god praxis.
+			När arbetet är utfört gör eleven en enkel dokumentation av de moment som har utförts samt utvärderar med enkla omdömen sitt arbete och resultat.
+   		</td>
+   		<td>
+   			Produkten är av tillfredställande kvalitet och följer etablerad god praxis. Eleven testar produkten i några webbläsare samt vidtar några enkla åtgärder för att åstadkomma snabb överföring av bilder och andra media filer.
+			När arbetet är utfört gör eleven en noggrann dokumentation av de moment som har utförts samt utvärderar med nyanserade omdömen i sitt arbete.
+   		</td>
+   		<td>
+   			Produkten är av god kvalitet och följer etablerad god praxis.
+			När arbetet är utfört gör eleven en noggrann och utförligt dokumentation av de moment som har utförts med koppling till generella principer och testresultat samt utvärderar med nyanserade omdömen sitt arbete och resultat, samt ger förslag på hur arbetet kan förbättras.
+   		</td>
+   	</tr>
+   	<tr>
+   		<td>
+   			Bilder och media med alternativa format, optimering och tillgänglighet.
+   		</td>
+   		<td>
+   			I arbetet bearbetar eleven med viss säkerhet text, bild och eventuell annan media så att de blir anpassade för att fungera i produkten.
+   		</td>
+   		<td>
+   			I arbetet bearbetar eleven med viss säkerhet och via flera moment text, bild och eventuell annan media, så att de blir anpassade för att fungera i produkten.
+   		</td>
+   		<td>
+   			I arbetet bearbetar eleven med säkerhet och via flera moment text, bild och eventuell annan media, så att de blir anpassade för att fungera i produkten.
+   		</td>
+   	</tr>
+	</table>
 
-Quisque sit amet sapien lectus. In vulputate, libero id tristique viverra, neque sem pharetra nunc, sit amet pharetra purus purus eu enim. Quisque id dapibus lorem. Etiam gravida nisl ipsum, nec condimentum ex interdum sed. Suspendisse quis nisl accumsan, malesuada libero ut, molestie est. Duis a massa vitae felis bibendum rutrum eu sed massa. In tellus enim, congue ac ipsum et, tempor consequat nisl. Integer viverra, leo id laoreet sodales, velit justo tincidunt justo, ut varius lectus quam nec ipsum. Aliquam vel pellentesque tellus, id interdum elit. Pellentesque sapien ex, porttitor non est non, porttitor interdum dolor. Aenean et tortor eu neque ultrices semper quis et quam.
-
-Quisque viverra accumsan arcu ut iaculis. Duis ligula augue, vestibulum ac vestibulum ut, interdum at lacus. Curabitur lobortis ullamcorper egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget velit ac nisl scelerisque tempor. Aliquam ultrices neque vitae luctus mollis. In id elit nec justo molestie feugiat in quis justo. Quisque aliquam sapien nec massa hendrerit eleifend. Vestibulum mattis odio eu justo placerat pharetra. Fusce eu mi faucibus purus aliquam molestie. Vestibulum varius nisi et ex congue, dapibus rhoncus dolor imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ornare est ut massa cursus, et consectetur nisl lacinia.
-
-Nulla vitae suscipit lectus. Integer ut quam arcu. Praesent ut nisl a augue pharetra volutpat. Fusce aliquam nisl arcu, vitae vehicula magna egestas non.
 	</div>
 	</div>
 	</div>
    </div>
+   
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
